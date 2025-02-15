@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* 🎨 Animated Background */
+.bg-animated {
+    background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #ffdde1, #a1c4fd, #c2e9fb);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    min-height: 100vh;
+}
+
+/* 🛑 Static Background */
+.bg-static {
+    background: linear-gradient(45deg, #a1c4fd, #c2e9fb);
+    min-height: 100vh;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* ✨ Feature Cards */
+.feature-card {
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-size: 400% 400%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s, background 5s ease-in-out;
+    cursor: pointer;
+}
+
+/* 🚀 Floating Effect */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* 🎭 Button Styling */
+button {
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* 🔥 Call to Action Button */
+.cta-button {
+    background: linear-gradient(90deg, #4f46e5, #6d28d9);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-button:hover {
+    background: linear-gradient(90deg, #6d28d9, #4f46e5);
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
