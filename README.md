@@ -109,5 +109,19 @@
 
 ---
 
+## 🏗️ Architecture Diagram
+
+![Architecture](photo/Architecture.png)
+
+## 🔄 Workflow Diagram
+
+![Workflow](photo/Workflow.png)
+
+## 🎥 Project Demonstration Video
+
+🔗 [Watch the Project Video](https://drive.google.com/file/d/1Y-rODxyrovF_rH5SSLAg3NlzZi45oYzf/view?usp=drive_link)
+
+---
+
 Enhance your study experience with **Study Buddy**! 🚀📚
 
